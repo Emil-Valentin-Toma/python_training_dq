@@ -28,7 +28,7 @@ DOB_split = []
 for element in birth_day:
     DOB_split.append(element.split('-'))
 ##print(DOB_split[0:5])#[['1745', '04', '02'], ['1742', '03', '21'], ['1743', '06', '16'], ['1730', '07', '22'], ['1739', '03', '16']]
-#separating the year of birth from the DOB:
+#separating the year of birth from the D.O.B.:
 birth_year=[]
 for lista in DOB_split:
     try:
