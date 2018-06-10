@@ -41,7 +41,7 @@ birth_year.insert(0,'birth_year')
 #for x in birth_year:
  #   x= str(x)
   #  x=list(x)
-  #good! sane reference is used for both lists:
+  #good! same reference is used for both lists:
 for x in list(range(0,len(legis_list))):
     legis_list[x].append(birth_year[x])
 #print(birth_year[0:3])
