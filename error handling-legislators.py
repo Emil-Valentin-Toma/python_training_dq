@@ -21,7 +21,7 @@ for item in legis_list:
     birth_day.append(item[2])
 #deleting the column header, which is text- we need numbers:
 del birth_day[0]
-#checking the parsed DOB:
+#checking the parsed D.O.B.:
 #print (birth_day[0:2]) #['1745-04-02', '1742-03-21']
 #splitting parsed birth_day column:
 DOB_split = []
